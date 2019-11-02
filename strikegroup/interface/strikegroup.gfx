@@ -1,0 +1,6 @@
+spriteTypes{
+	spriteType = {
+		name = "GFX_starbase_large_gun_battery"
+		texturefile = "gfx/interface/icons/modules/sb_large_gun.dds"
+	}
+}

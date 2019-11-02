@@ -1,0 +1,65 @@
+﻿l_polish:
+
+
+ TECH_UNLOCK_JUMPDRIVE_2_TITLE:0 "§HUnlocks Component:§! Jump Drive II"
+ TECH_UNLOCK_JUMPDRIVE_2_DESC:0 "§HJump Drive II§!\n$tech_tech_jump_drive_2_desc$"
+ 
+ TECH_UNLOCK_PSI_JUMPDRIVE_2_TITLE:0 "§HUnlocks Component:§! Psi Jump Drive II"
+ 
+ TECH_UNLOCK_PSI_JUMPDRIVE_2_DESC:0 "§HPsi Jump Drive II§!\n$tech_tech_jump_drive_2_desc$"
+ 
+ TECH_UNLOCK_JUMPDRIVE_3_TITLE:0 "§HUnlocks Component:§! Jump Drive III"
+ TECH_UNLOCK_JUMPDRIVE_3_DESC:0 "§HJump Drive III§!\n$tech_tech_jump_drive_3_desc$"
+
+ 
+ TECH_UNLOCK_PSI_JUMPDRIVE_3_TITLE:0 "§HUnlocks Component:§! Psi Jump Drive III"
+ 
+ TECH_UNLOCK_PSI_JUMPDRIVE_3_DESC:0 "§HPsi Jump Drive III§!\n$tech_tech_jump_drive_3_desc$"
+ 
+ 
+ TECH_UNLOCK_JUMPDRIVE_4_TITLE:0 "§HUnlocks Component:§! Jump Drive IV"
+ 
+ TECH_UNLOCK_JUMPDRIVE_4_DESC:0 "§HJump Drive IV§!\n$tech_tech_jump_drive_4_desc$"
+
+ 
+ TECH_UNLOCK_JUMPDRIVE_5_TITLE:0 "§HUnlocks Component:§! Jump Drive V"
+ TECH_UNLOCK_JUMPDRIVE_5_DESC:0 "§HJump Drive V§!\n$tech_tech_jump_drive_5_desc$"
+
+ tech_jump_drive_2:0 "Jump Drive II"
+ 
+ tech_psi_jump_drive_2:0 "Psi Jump Drive II"
+ 
+ tech_psi_jump_drive_3:0 "Psi Jump Drive III"
+ tech_jump_drive_3:0 "Jump Drive III"
+ 
+ tech_jump_drive_4:0 "Jump Drive IV"
+ 
+ tech_jump_drive_5:0 "Jump Drive V"
+ 
+ tech_jump_drive_2_desc:0 "With re-designed power management system and improved integrity, this new jump drive draws more energy but brings extended range and fast jump speed. Reduces Jump Cooldown to 90 Days."
+ tech_jump_drive_3_desc:0 "By sacrificing its power efficiency greatly, the newest version of the jump drive promises even further jump range and faster jump speed. Reduces Jump Cooldown to 60 Days."
+ 
+ tech_jump_drive_4_desc:0 "Finally, the exact relationship among the Tachyon particle, quantum space and vacuum has been discovered; it allows us to fully understand the mechanism of the jump drive technology. With the Tachyon guidance system and power-generating vacuumed quantum stabilizer, the latest jump drive allows ships to travel even further with lightning speed. Reduces Jump Cooldown to 30 Days."
+ 
+ tech_psi_jump_drive_2_desc:0 "With drawing more power from the ship, this new psi amplifier helps the crew to concentrate deeper and more focused, resulting in greater range and less delay. Reduces Jump Cooldown to 60 Days."
+ 
+ tech_psi_jump_drive_3_desc:0 "Psionic crew memebers now enjoy the optimized version of the enhanced psi amplifier, which reduces power consumption and better jump performance. Additionally installed psionic reflection barrier system also increases the ship's survivality. Reduces Jump Cooldown to 30 Days."
+ 
+ tech_jump_drive_5_desc:0 "A fully sentient AI completely controls all aspects of this newly improved jump drive system. Being able to rapidly calculating the jump drive's capabilities, the AI can reduce the damage on the ship during the emergency jump. Reduces Jump Cooldown to mere 15 Days."
+
+ JUMP_DRIVE_2:0 "Jump Drive II"
+ JUMP_DRIVE_2_DESC:0 "With re-designed power management system and improved integrity, this new jump drive draws more energy but brings extended range and fast jump speed."
+ JUMP_DRIVE_3:0 "Jump Drive III"
+ JUMP_DRIVE_3_DESC:0 "By sacrificing its power efficiency greatly, the newest version of the jump drive promises even further jump range and faster jump speed."
+ 
+ JUMP_DRIVE_4:0 "Jump Drive IV"
+ JUMP_DRIVE_4_DESC:0 "Finally, the exact relationship among the Tachyon particle, quantum space and vacuum has been discovered; it allows us to fully understand the mechanism of the jump drive technology. With the Tachyon guidance system and power-generating vacuumed quantum stabilizer, the latest jump drive allows ships to travel even further with lightning speed."
+ 
+ JUMP_DRIVE_5:0 "Jump Drive V"
+ JUMP_DRIVE_5_DESC:0 "A fully sentient AI completely controls all aspects of this newly improved jump drive system. Being able to rapidly calculating the jump drive's capabilities, the AI can reduce the damage on the ship during the emergency jump."
+ 
+ PSI_JUMP_DRIVE_2:0 "Psi Jump Drive II"
+ PSI_JUMP_DRIVE_2_DESC:0 "With drawing more power from the ship, this new psi amplifier helps the crew to concentrate deeper and more focused, resulting in greater range and less delay."
+ 
+ PSI_JUMP_DRIVE_3:0 "Psi Jump Drive III"
+ PSI_JUMP_DRIVE_3_DESC:0 "Psionic crew memebers now enjoy the optimized version of the enhanced psi amplifier, which reduces power consumption and better jump performance. Additionally installed psionic reflection barrier system also increases the ship's survivality."

@@ -1,0 +1,14 @@
+﻿l_english:
+ tech_starbase_build_speed:0 "Starbase Build Speed"
+ tech_starbase_build_speed_desc:0 ":-)"
+ tech_military_build_speed:0 "Military Build Speed"
+ tech_military_build_speed_desc:0 "(╯°Д°)╯︵ ┻━┻"
+ tech_planet_build_speed:0 "Planet Build Speed"
+ tech_planet_build_speed_desc:0 "(๑·́ ₃ ·̀๑)"
+
+ edict_the_more_the_better:0 "The more, the better"
+ edict_the_more_the_better_desc:0 "I want all of them!"
+ 
+ mod_shipsize_ion_cannon_build_speed_mult:0 "ion_cannon build speed"
+ mod_shipsize_titan_build_speed_mult:0 "titan build speed"
+ mod_shipsize_colossus_build_speed_mult:0 "colossus build speed"

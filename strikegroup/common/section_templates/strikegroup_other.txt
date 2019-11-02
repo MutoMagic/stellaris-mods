@@ -1,0 +1,42 @@
+@section_cost = 30
+
+##################
+# Defensive Platform
+##################
+
+ship_section_template = {
+	key = "HEAVY_MILITARY_STATION_SECTION_X1"
+	ship_size = military_station_small
+	ship_size = military_station_medium
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	should_draw_components = yes
+	
+	entity = "military_station_section_heavy_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+		
+	medium_utility_slots = 3
+	#aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+	
+	ai_weight = {
+		factor = 1
+	}
+}

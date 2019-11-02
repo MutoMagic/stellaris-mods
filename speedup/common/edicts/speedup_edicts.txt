@@ -1,0 +1,28 @@
+@ambitionDuration = 3600
+
+the_more_the_better = {
+	length = @ambitionDuration
+	is_ambition = yes
+	resources = {
+		category = edicts
+	}
+
+	modifier = {
+		building_time_mult = -0.5
+		megastructure_build_speed_add = 10.0
+		shipsize_ion_cannon_build_speed_mult = 8.0
+		shipsize_titan_build_speed_mult = 5.0
+		shipsize_colossus_build_speed_mult = 8.0
+	}
+	
+	potential = {
+		And = {
+			has_technology = tech_military_build_speed
+			has_technology = tech_planet_build_speed
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}

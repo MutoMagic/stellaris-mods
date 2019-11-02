@@ -1,0 +1,255 @@
+@cost1 = 5
+@cost2 = 10
+@cost3 = 15
+@cost4 = 20
+
+@power1 = -10
+@power2 = -15
+@power3 = -20
+@power4 = -30
+
+@ftl5 = 50
+@ftl6 = 80
+@ftl7 = 200
+@ftl8 = 240
+
+@power5 = -50
+@power6 = -60
+@power7 = 60
+@power8 = 100
+
+
+utility_component_template = {
+	key = "JUMP_DRIVE_1"
+	size = small
+	icon = "GFX_ship_part_jump_drive_1"
+	icon_frame = 1
+	power = @power4
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost4
+		}
+	}
+	ship_modifier = {
+		ship_windup_mult = -0.7
+	}
+	
+	ai_weight = {
+		weight = 4
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_jump_drive_1" }
+	component_set = "ftl_components"
+	upgrades_to = "JUMP_DRIVE_2"
+}
+
+utility_component_template = {
+	key = "PSI_JUMP_DRIVE_1"
+	size = small
+	icon = "GFX_ship_part_psi_jump_drive_1"
+	icon_frame = 1
+	power = @power4
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+			sr_zro = 5
+		}
+	}
+	ship_modifier = {
+		ship_windup_mult = -0.8
+		ship_ftl_jumpdrive_range_mult = 0.50
+	}
+	
+	ai_weight = {
+		weight = 5
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_psi_jump_drive_1" }
+	component_set = "ftl_components"
+	upgrades_to = "PSI_JUMP_DRIVE_2"
+}
+
+
+utility_component_template = {
+	key = "JUMP_DRIVE_2"
+	size = small
+	icon = "GFX_ship_part_jump_drive_2"
+	icon_frame = 1
+	power = @power5
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.6
+		ship_windup_mult = -0.8
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_jump_drive_2" }
+	component_set = "ftl_components"
+	upgrades_to = "JUMP_DRIVE_3"
+}
+
+utility_component_template = {
+	key = "PSI_JUMP_DRIVE_2"
+	size = small
+	icon = "GFX_ship_part_psi_jump_drive_2"
+	icon_frame = 1
+	power = @power5
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+			sr_zro = 10
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.8
+		ship_windup_mult = -0.85
+	}
+
+	ai_weight = {
+		weight = 7
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_psi_jump_drive_2" }
+	component_set = "ftl_components"
+	upgrades_to = "PSI_JUMP_DRIVE_3"
+}
+
+utility_component_template = {
+	key = "JUMP_DRIVE_3"
+	size = small
+	icon = "GFX_ship_part_jump_drive_3"
+	icon_frame = 1
+	power = @power6
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 1.0
+		ship_windup_mult = -0.85
+	}
+
+	ai_weight = {
+		weight = 7
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_jump_drive_3" }
+	component_set = "ftl_components"
+	upgrades_to = "JUMP_DRIVE_4"
+}
+
+utility_component_template = {
+	key = "PSI_JUMP_DRIVE_3"
+	size = small
+	icon = "GFX_ship_part_psi_jump_drive_3"
+	icon_frame = 1
+	power = -20
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+			sr_zro = 15
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 1.2
+		ship_windup_mult = -0.9
+		ship_evasion_add = 20
+	}
+
+	ai_weight = {
+		weight = 9
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_psi_jump_drive_3" }
+	component_set = "ftl_components"
+}
+
+utility_component_template = {
+	key = "JUMP_DRIVE_4"
+	size = small
+	icon = "GFX_ship_part_jump_drive_4"
+	icon_frame = 1
+	power = @power7
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 1.20
+		ship_windup_mult = -0.9
+	}
+
+	ai_weight = {
+		weight = 12
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_jump_drive_4" }
+	component_set = "ftl_components"
+	upgrades_to = "JUMP_DRIVE_5"
+}
+
+utility_component_template = {
+	key = "JUMP_DRIVE_5"
+	size = small
+	icon = "GFX_ship_part_jump_drive_5"
+	icon_frame = 1
+	power = @power8
+	ftl = yes
+	jumpdrive = yes
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 45
+		}
+	}
+	ship_modifier = {
+		ship_ftl_jumpdrive_range_mult = 1.60
+		ship_windup_mult = -0.95
+		ship_emergency_ftl_mult = -0.40
+	}
+
+	ai_weight = {
+		weight = 16
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special }
+	prerequisites = { "tech_jump_drive_5" }
+	component_set = "ftl_components"
+}

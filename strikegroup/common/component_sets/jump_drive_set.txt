@@ -1,0 +1,41 @@
+component_set = {
+	key = "JUMP_DRIVE_2"
+	
+	icon = "GFX_ship_part_jump_drive_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "PSI_JUMP_DRIVE_2"
+	
+	icon = "GFX_ship_part_psi_jump_drive_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "PSI_JUMP_DRIVE_3"
+	
+	icon = "GFX_ship_part_psi_jump_drive_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "JUMP_DRIVE_3"
+	
+	icon = "GFX_ship_part_jump_drive_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "JUMP_DRIVE_4"
+	
+	icon = "GFX_ship_part_jump_drive_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "JUMP_DRIVE_5"
+	
+	icon = "GFX_ship_part_jump_drive_5"
+	icon_frame = 1	
+}
