@@ -523,7 +523,8 @@ nicoll_beam_gate = {
 			NOT = {
 				any_system = {
 					any_system_planet = {
-						has_planet_flag = nicoll_portal
+						#has_planet_flag = nicoll_portal
+						has_planet_flag = nicoll_beam_target_star
 					}
 				}
 			}
@@ -565,7 +566,9 @@ nicoll_beam_gate = {
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
-		set_star_flag = s_nicoll_portal
+		# bug??? nicoll_beam_target_marker cant_snipe_and_gate not work.
+		# May be nicoll_portal, but no has_star_flag.
+		#set_star_flag = s_nicoll_portal
 		every_system_planet = {
 			limit = {
 				is_star = yes
@@ -684,7 +687,8 @@ nicoll_beam_target_marker = {
 			NOT = {
 				any_system = {
 					any_system_planet = {
-						has_planet_flag = nicoll_portal
+						#has_planet_flag = nicoll_portal
+						has_planet_flag = nicoll_beam_target_star
 					}
 				}
 			}
