@@ -15,3 +15,6 @@
  BATTERY_STARBASE_SECTION_L1:0 "重炮分区"
  sm_large_gun_battery:0 "重炮台"
  sm_large_gun_battery_desc:0 "在太空基地增加一个大型武器槽。\n"
+
+ sm_influence_generator:0 "印刷厂"
+ sm_influence_generator_desc:0 "多一份宣传就多一份影响力。\n"

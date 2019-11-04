@@ -15,3 +15,6 @@
  BATTERY_STARBASE_SECTION_L1:0 "Heavy Section"
  sm_large_gun_battery:0 "Heavy Battery"
  sm_large_gun_battery_desc: "Add a large weapon slots to the Starbase.\n"
+
+ sm_influence_generator:0 "Printing house"
+ sm_influence_generator_desc:0 "One more publicity, one more influence.\n"

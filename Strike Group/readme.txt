@@ -2,13 +2,16 @@ Why named Strike Group? Strike Group aims to widen the options given by ship des
 
 Inspiration comes from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1345239366]'Tactical Ship Sections'[/url]. The difference is:
 
-No need for technology research.
-The Colossus no longer appears to be helpless in the face of enemy ships.
-At the expense of protection, the Defensive Platform can use extra_large weapons.
-Titan as a super battleship, should support more extra_large weapons.
-Starbase can build large weapon modules.
+No technical research required.
+Colossus can carry more weapons.
+The Defensive Platform allows the construction of extra_large weapons.
+As a super battleship, Titan should support more extra_large(4+2) weapons.
+Spaceport adds large weapon modules.
+The Printing House has made it possible for the Spaceport to produce influence.
+Upper limit of influence can be added.
 
 There may be naming conflicts on compatibility issues.
+Original file [b][i]common/strategic_resources/00_strategic_resources.txt[/i][/b] has been replaced.
 
 Recommend subscription [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1885775216&searchtext=]Extra Ship Components 3.0 [2.4][/url] for a better experience.
 

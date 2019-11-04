@@ -3,4 +3,9 @@ spriteTypes{
 		name = "GFX_starbase_large_gun_battery"
 		texturefile = "gfx/interface/icons/modules/sb_large_gun.dds"
 	}
+
+	spriteType = {
+		name = "GFX_spaceport_module_influence_generator"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_influence_generator.dds"
+	}
 }
