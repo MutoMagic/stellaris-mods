@@ -15,7 +15,7 @@ Megastructure remove the upper limit, sectional_construction now increase the nu
 [h1][b]In-built Compatibility[/b][/h1]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1121692237]Gigastructural Engineering & More (2.5)[/url]
-[i]TODO: unlock limit.[/i]
+[i][strike]TODO: unlock limit.[/strike] finished[/i]
 
 [h1][b]Optional Addons and Compatibility Patches[/b][/h1]
 
