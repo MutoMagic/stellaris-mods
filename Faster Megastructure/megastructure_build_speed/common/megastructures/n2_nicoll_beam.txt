@@ -518,17 +518,16 @@ nicoll_beam_gate = {
 				}
 			}
 		}
-		custom_tooltip = {
-			fail_text = "cant_two_gates"
-			NOT = {
-				any_system = {
-					any_system_planet = {
-						#has_planet_flag = nicoll_portal
-						has_planet_flag = nicoll_beam_target_star
-					}
-				}
-			}
-		}
+		#custom_tooltip = {
+		#	fail_text = "cant_two_gates"
+		#	NOT = {
+		#		any_system = {
+		#			any_system_planet = {
+		#				has_planet_flag = nicoll_portal
+		#			}
+		#		}
+		#	}
+		#}
 		custom_tooltip = {
 			fail_text = "cant_build_here"
 			NOT = {
