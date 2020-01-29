@@ -996,25 +996,46 @@ ship_section_template = {
 		locatorname = "loc1"
 	}
 	
+	#component_slot = {
+	#	name = "XL_GUN_13"
+	#	slot_size = torpedo
+	#	slot_type = weapon
+	#	locatorname = "medium_gun_01"
+	#}
+	#
+	#component_slot = {
+	#	name = "XL_GUN_14"
+	#	slot_size = torpedo
+	#	slot_type = weapon
+	#	locatorname = "medium_gun_01"
+	#}
+	#
+	#component_slot = {
+	#	name = "XL_GUN_15"
+	#	slot_size = torpedo
+	#	slot_type = weapon
+	#	locatorname = "medium_gun_01"
+	#}
+
 	component_slot = {
 		name = "XL_GUN_13"
-		slot_size = torpedo
+		slot_size = extra_large
 		slot_type = weapon
-		locatorname = "medium_gun_01"
+		locatorname = "loc1"
 	}
 	
 	component_slot = {
 		name = "XL_GUN_14"
-		slot_size = torpedo
+		slot_size = extra_large
 		slot_type = weapon
-		locatorname = "medium_gun_01"
+		locatorname = "loc1"
 	}
 	
 	component_slot = {
 		name = "XL_GUN_15"
-		slot_size = torpedo
+		slot_size = extra_large
 		slot_type = weapon
-		locatorname = "medium_gun_01"
+		locatorname = "loc1"
 	}
 	
 	large_utility_slots = 12
