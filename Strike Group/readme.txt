@@ -1,3 +1,15 @@
+Allows editing and building dreadnoughts.
+
+为了解决[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1747099270]舰R[/url]天灾联合舰队，无畏舰被设计成拥有海量武器槽的武库平台（6 titanic + 9 torpedo + 15 extra_large +15 large + 6 point_defence + 9 strike_craft），且附带强大的防护能力。经测试，38 vs 3boss 以损失6艘为代价（萌新难度），成功将其击退。
+
+与自动化无畏舰共用一个模板，由于修改了原文件，在订阅同类mod时请注意兼容性问题。
+common\ship_sizes\11_leviathans.txt
+common\section_templates\leviathans.txt
+
+PS：没有抑制力场的日子可真难过[spoiler]，50w的HP脆的跟张纸一样[/spoiler]。
+
+----------
+
 Why named Strike Group? Strike Group aims to widen the options given by ship design choices, to provide greater range and firepower.
 
 Inspiration comes from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1345239366]'Tactical Ship Sections'[/url]. The difference is:
