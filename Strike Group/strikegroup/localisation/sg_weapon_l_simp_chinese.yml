@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ TITAN_DARK_MATTER_REACTOR_sgD:0 "暗物质反应堆"
+ COMBAT_COMPUTER_ARTILLERY_PRECOG_sgD:0 "未来视（火炮）"
+ SG_ARTILLERY_BEHAVIOR_DESC:0 "§H炮兵战术：§!飞船会在远距离（§Y280§!）开火，并用远距离武器攻击敌人。"
+ SHIP_AURA_SHIELD_DAMPENER_sgD:0 "抑制力场"
+
+ automated_dreadnought_dirty_key_sgDbow:0 "无畏舰首"
+ automated_dreadnought_key_sgDmid:0 "无畏舰核心"
+ automated_dreadnought_key_sgDstern:0 "无畏舰尾"
+ automated_dreadnought_key_sgD2nd:0 "无畏舰机库"
