@@ -4,7 +4,7 @@
  SG_ARTILLERY_BEHAVIOR_DESC:0 "§HArtillery Tactics: §!The ship will fire at (§Y280§!) long distance, and attack with long-range weapons."
  SHIP_AURA_SHIELD_DAMPENER_sgD:0 "Inhibitory Force Field"
 
- automated_dreadnought_dirty_key_sgDbow:0 "Dreadnought Bow"
+ automated_dreadnought_key_sgDbow:0 "Dreadnought Bow"
  automated_dreadnought_key_sgDmid:0 "Dreadnought Core"
  automated_dreadnought_key_sgDstern:0 "Dreadnought Stern"
  automated_dreadnought_key_sgD2nd:0 "Dreadnought 2nd"
