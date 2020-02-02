@@ -10,6 +10,12 @@ utility_component_template = {
 	component_set = "power_core"
 	size_restriction = { npc_warship_01 }
 
+	ship_modifier = {
+		ship_shield_regen_add_perc = 30
+		ship_hull_regen_add_perc = 30
+		ship_armor_regen_add_perc = 30
+	}
+
 	ai_weight = {
 		weight = 5
 	}
@@ -30,9 +36,9 @@ utility_component_template = {
 	prerequisites = { "tech_precognition_interface" }
 
 	ship_modifier = {
-		ship_fire_rate_mult = 0.2
-		ship_weapon_range_mult = 0.2
-		ship_tracking_add = 10
+		ship_fire_rate_mult = 0.4
+		ship_weapon_range_mult = 0.4
+		ship_tracking_add = 20
 	}
 	
 	ai_weight = {
