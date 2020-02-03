@@ -6,6 +6,8 @@ Allows editing and building dreadnoughts.
 common\ship_sizes\11_leviathans.txt
 common\section_templates\leviathans.txt
 
+伤害输出由武器决定，推荐使用 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1374229669]Ultimate Technologies (Restriction Break)[/url] 替换 [b]Extra Ship Components 3.0[/b] 以解决始原粑粑都无法处理的终局危机。
+
 PS：没有抑制力场的日子可真难过[spoiler]，50w的HP脆的跟张纸一样[/spoiler]。
 
 ----------
