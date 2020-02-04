@@ -74,15 +74,21 @@ matter_decompressor_0 = {
 		#		}
 		#	}
 		#}
-		custom_tooltip = {
-			fail_text = "requires_no_existing_megastructure"
-			#NOT = { has_any_megastructure = yes }
-			has_no_non_gate_megastructure = yes
-		}
+		#custom_tooltip = {
+		#	fail_text = "requires_no_existing_megastructure"
+		#	#NOT = { has_any_megastructure = yes }
+		#	has_no_non_gate_megastructure = yes
+		#}
 	}
 	
 	placement_rules = {
 		planet_possible = {
+			custom_tooltip = {
+				fail_text = "requires_no_existing_megastructure"
+				NOT = {
+					has_planet_flag = gigastructure
+				}
+			}
 			custom_tooltip = {
 				fail_text = "must_build_around_star"
 				is_star = yes
@@ -124,6 +130,9 @@ matter_decompressor_0 = {
 	on_build_cancel = {}
 	on_build_complete = {
 		from = { set_country_flag = built_matter_decompressor_site }
+		fromfrom.planet = {
+			set_planet_flag = gigastructure
+		}
 	}
 }
 

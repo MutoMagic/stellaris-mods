@@ -78,15 +78,26 @@ dyson_sphere_0 = {
 				is_star_class = sc_trinary_4
 			}
 		}
-		custom_tooltip = {
-			fail_text = "requires_no_existing_megastructure"
-			#NOT = { has_any_megastructure = yes }
-			has_no_non_gate_megastructure = yes
-		}
+		#custom_tooltip = {
+		#	fail_text = "requires_no_existing_megastructure"
+		#	#NOT = { has_any_megastructure = yes }
+		#	has_no_non_gate_megastructure = yes
+		#}
 	}
 	
 	placement_rules = {
 		planet_possible = {
+			custom_tooltip = {
+				fail_text = "requires_no_existing_megastructure"
+				NOT = {
+					solar_system = {
+						OR = {
+							has_star_flag = has_giga
+							has_star_flag = ring_world_built
+						}
+					}
+				}
+			}
 			custom_tooltip = {
 				fail_text = "must_build_around_star"
 				is_star = yes
@@ -128,6 +139,7 @@ dyson_sphere_0 = {
 	on_build_complete = {
 		set_star_flag = dyson_sphere_built
 		from = { set_country_flag = built_dyson_sphere }
+		set_star_flag = has_giga
 	}
 }
 

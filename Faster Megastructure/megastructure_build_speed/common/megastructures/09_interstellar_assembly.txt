@@ -26,10 +26,10 @@ interstellar_assembly_0 = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
 		}
-		custom_tooltip = {
-			fail_text = "requires_no_existing_megastructure"
-			has_no_non_gate_megastructure = yes
-		}	
+		#custom_tooltip = {
+		#	fail_text = "requires_no_existing_megastructure"
+		#	has_no_non_gate_megastructure = yes
+		#}	
 		custom_tooltip = {
 			fail_text = "requires_surveyed_system"
 			NOT = {
@@ -53,6 +53,16 @@ interstellar_assembly_0 = {
 	
 	placement_rules = {
 		planet_possible = {
+			custom_tooltip = {
+				fail_text = "requires_no_existing_megastructure"
+				NOR = {
+					has_planet_flag = megastructure
+					has_planet_flag = has_megastructure
+					solar_system = {
+						has_star_flag = ring_world_built
+					}
+				}
+			}	
 			custom_tooltip = {
 				fail_text = "requires_survey_not_habitable"
 				is_surveyed = {			# prevent leaking habitability information
@@ -108,6 +118,9 @@ interstellar_assembly_0 = {
 	on_build_cancel = {}
 	on_build_complete = {
 		from = { set_country_flag = built_interstellar_assembly_site }
+		fromfrom.planet = {
+			set_planet_flag = has_megastructure
+		}
 	}
 }
 
