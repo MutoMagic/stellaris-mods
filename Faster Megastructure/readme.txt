@@ -1,6 +1,6 @@
 update 2020.02.04
 允许在同一星系内建造多个原版巨构
-[u][b]注意[/b][/u]：由于flag兼容Gigastructures，因此同一星球上只能建造一个。[spoiler]这不是bug!!![/spoiler]
+[u][b]注意[/b][/u]：由于flag兼容Gigastructures，因此同一星球上最多只能建造一个。[spoiler]这不是bug!!![/spoiler]
 
 ----------
 
