@@ -5,6 +5,10 @@ Allows editing and building dreadnoughts.
 与自动化无畏舰共用一个模板，由于修改了原文件，在订阅同类mod时请注意兼容性问题。
 common\ship_sizes\11_leviathans.txt
 common\section_templates\leviathans.txt
+common\section_templates\00_weapons_extra_large.txt
+
+T型武器允许使用Gigastructures中巨型星际飞船的欧米伽清除光束。为了使mod正常运行，它必须位于启动器mod列表中的Gigastructures下。由于修改了原文件，请注意兼容性问题。
+common\section_templates\giga_weapons_extra_large.txt
 
 伤害输出由武器决定，推荐使用 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1374229669]Ultimate Technologies (Restriction Break)[/url] 替换 [b]Extra Ship Components 3.0[/b] 以解决始原粑粑都无法处理的终局危机。
 
