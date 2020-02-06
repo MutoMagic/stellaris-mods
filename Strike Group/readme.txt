@@ -6,11 +6,16 @@ Allows editing and building dreadnoughts.
 common\ship_sizes\11_leviathans.txt
 common\section_templates\leviathans.txt
 common\section_templates\00_weapons_extra_large.txt
+common\global_ship_designs\leviathans_designs.txt
 
-T型武器允许使用Gigastructures中巨型星际飞船的欧米伽清除光束。为了使mod正常运行，它必须位于启动器mod列表中的Gigastructures下。由于修改了原文件，请注意兼容性问题。
+T型武器允许使用Gigastructures中巨型星际飞船的欧米伽清除光束。为了使mod正常运行，它必须位于启动器mod列表中的Gigastructures下。
 common\section_templates\giga_weapons_extra_large.txt
 
-伤害输出由武器决定，推荐使用 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1374229669]Ultimate Technologies (Restriction Break)[/url] 替换 [b]Extra Ship Components 3.0[/b] 以解决始原粑粑都无法处理的终局危机。
+伤害输出由武器决定，平衡性不是本舰考虑的问题，其诞生之初就是为解决“[b]始源类天灾[/b]”而设计的。
+[u][b]可选订阅[/b][/u]：本mod对 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1374229669]Ultimate Technologies (Restriction Break)[/url] 中的组件进行了二次加强，使其更接近阿尔法武器。已修改的文件列表如下：
+common\section_templates\00_0_ADV_ult_strike_craft.txt
+common\section_templates\00_0_ult_utilities_roles.txt
+common\section_templates\00_0_ADV_ult_weapons.txt
 
 PS：没有抑制力场的日子可真难过[spoiler]，50w的HP脆的跟张纸一样[/spoiler]。
 
