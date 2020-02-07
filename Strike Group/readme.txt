@@ -1,3 +1,9 @@
+添加一种新武器，欧米伽清除光束α（欧米伽清除光束的升级版）。
+因其过于强大威力，一般用于救场。正常play是不推荐使用的，会严重降低你的游戏乐趣。
+[u][b]提示[/b][/u]：需要Gigastructures和Ultimate Technologies (Restriction Break)中的tech_war_planets和tech_ult_trident_titan才可解锁。
+
+----------
+
 Allows editing and building dreadnoughts.
 
 为了解决[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1747099270]舰R[/url]天灾联合舰队，无畏舰被设计成拥有海量武器槽的武库平台（6 titanic + 9 torpedo + 15 extra_large +15 large + 6 point_defence + 9 strike_craft），且附带强大的防护能力。[strike]经测试，38 vs 3boss 以损失6艘为代价（萌新难度），成功将其击退。[/strike]（翻车啦~
