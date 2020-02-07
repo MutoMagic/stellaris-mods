@@ -95,3 +95,52 @@ utility_component_template = {
 		}
 	}
 }
+
+# 欧米伽清除光束α
+weapon_component_template = {
+	key = "GIGA_SUPER_OMEGA_LANCE_1_sgD"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	icon = "GFX_ship_part_planet_lance_ShermanM1"
+	icon_frame = 1
+	power = -65000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}		
+		upkeep = {
+			energy = 0
+			alloys = 0
+		}
+	}
+
+	firing_arc = 90
+	min_range = 0
+	static_rotation = yes
+	use_ship_kill_target = yes
+	
+	modifier = {
+		ship_fire_rate_mult = 1
+	}
+	
+	damage = { min = 300000 max = 400000 }
+	windup = { min = 0 max = 0 }
+	range = 385
+	tracking = 1
+	accuracy = 1
+	total_fire_time = 5
+	shield_penetration = 1.00
+	armor_penetration = 1.00
+	hull_damage = 3.00
+	
+	component_set = "GIGA_SUPER_OMEGA_LANCE_1_sgD"
+	projectile_gfx = "giga_super_omega_laser"
+	prerequisites = { "tech_war_planets" "tech_ult_trident_titan" }
+	tags = { weapon_type_energy }
+	size_restriction = { giga_planet_behemoth npc_warship_01 }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+}

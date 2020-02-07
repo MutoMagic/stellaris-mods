@@ -266,6 +266,7 @@ weapon_component_template = {
 	size_restriction = { giga_planet_behemoth npc_warship_01 }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
+	upgrades_to = "GIGA_SUPER_OMEGA_LANCE_1_sgD"
 }
 
 utility_component_template = {

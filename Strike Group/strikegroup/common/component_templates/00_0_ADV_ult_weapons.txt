@@ -70,7 +70,7 @@ weapon_component_template = {
 	}
 	power = -80.00
 	damage = { min = 700.00 max = 1400.00 }
-	windup = { min = 15.00 max = 25.00 }
+	windup = { min = 1.00 max = 19.00 }
 	hull_damage = 2.00
 	#shield_damage = 5.00
 	shield_penetration = 1.00
@@ -597,7 +597,7 @@ weapon_component_template = {
 	}
 	power = -300.00
 	damage = { min = 5000.00 max = 9600.00 }
-	windup = { min = 30.00 max = 45.00 }
+	windup = { min = 15.00 max = 45.00 }
 	hull_damage = 2.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -636,13 +636,13 @@ weapon_component_template = {
 		}
 	}
 	power = -20.00
-	damage = { min = 10.00 max = 10.00 }
+	damage = { min = 8.00 max = 12.00 }
 	windup = { min = 0.00 max = 0.00 }
-	hull_damage = 1.00
-	shield_damage = 1.00
-	shield_penetration = 0.00
-	armor_damage = 1.00
-	armor_penetration = 0.00
+	#hull_damage = 1.00
+	#shield_damage = 1.00
+	shield_penetration = 1.00
+	#armor_damage = 1.00
+	armor_penetration = 1.00
 	total_fire_time = 1.00
 	range = 40.00
 	accuracy = 1.00
@@ -680,11 +680,11 @@ weapon_component_template = {
 	power = -20.00
 	damage = { min = 8.00 max = 12.00 }
 	windup = { min = 0.00 max = 0.00 }
-	hull_damage = 1.00
-	shield_damage = 1.00
-	shield_penetration = 0.00
-	armor_damage = 1.00
-	armor_penetration = 0.00
+	#hull_damage = 1.00
+	#shield_damage = 1.00
+	shield_penetration = 1.00
+	#armor_damage = 1.00
+	armor_penetration = 1.00
 	total_fire_time = 1.00
 	range = 40.00
 	accuracy = 1.00
@@ -722,7 +722,7 @@ weapon_component_template = {
 	}
 	power = -40.00
 	damage = { min = 2000.00 max = 2500.00 }
-	windup = { min = 2.00 max = 39.00 }
+	windup = { min = 1.00 max = 39.00 }
 	hull_damage = 3.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -770,7 +770,7 @@ weapon_component_template = {
 	}
 	power = -40.00
 	damage = { min = 2000.00 max = 2500.00 }
-	windup = { min = 2.00 max = 39.00 }
+	windup = { min = 1.00 max = 39.00 }
 	hull_damage = 3.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -1040,7 +1040,7 @@ weapon_component_template = {
 	}
 	power = -1000.00
 	damage = { min = 40000.00 max = 80000.00 }
-	windup = { min = 30.00 max = 45.00 }
+	windup = { min = 10.00 max = 30.00 }
 	#hull_damage = 1.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -1088,7 +1088,7 @@ weapon_component_template = {
 	}
 	power = -1000.00
 	damage = { min = 40000.00 max = 80000.00 }
-	windup = { min = 30.00 max = 45.00 }
+	windup = { min = 10.00 max = 30.00 }
 	#hull_damage = 1.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -1129,7 +1129,7 @@ weapon_component_template = {
 	}
 	power = -1000.00
 	damage = { min = 40000.00 max = 80000.00 }
-	windup = { min = 30.00 max = 45.00 }
+	windup = { min = 10.00 max = 30.00 }
 	#hull_damage = 1.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00
@@ -1177,7 +1177,7 @@ weapon_component_template = {
 	}
 	power = -1000.00
 	damage = { min = 40000.00 max = 80000.00 }
-	windup = { min = 30.00 max = 45.00 }
+	windup = { min = 10.00 max = 30.00 }
 	#hull_damage = 1.00
 	#shield_damage = 1.00
 	shield_penetration = 1.00

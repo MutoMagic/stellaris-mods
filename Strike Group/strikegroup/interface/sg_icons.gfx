@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ship_part_planet_lance_ShermanM1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_planet_lance_ShermanM1.dds"
+	}
+}
