@@ -1,5 +1,6 @@
 ﻿l_english:
  TITAN_DARK_MATTER_REACTOR_sgD:0 "Dark Matter Reactor"
+ TITAN_DARK_MATTER_REACTOR_sgD_noregen:0 "Dark Matter Reactor(No Regen)"
  COMBAT_COMPUTER_ARTILLERY_PRECOG_sgD:0 "Precog Computer(Artillery)"
  SG_ARTILLERY_BEHAVIOR_DESC:0 "§HArtillery Tactics: §!The ship will fire at (§Y280§!) long distance, and attack with long-range weapons."
  SHIP_AURA_SHIELD_DAMPENER_sgD:0 "Inhibitory Force Field"

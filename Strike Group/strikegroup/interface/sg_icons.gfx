@@ -4,4 +4,9 @@ spriteTypes = {
 		name = "GFX_ship_part_planet_lance_ShermanM1"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_planet_lance_ShermanM1.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ship_part_dark_matter_power_core_noregen"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_dark_matter_power_core_noregen.dds"
+	}
 }

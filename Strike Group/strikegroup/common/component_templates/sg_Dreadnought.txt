@@ -21,6 +21,22 @@ utility_component_template = {
 	}
 }
 
+utility_component_template = {
+	key = "TITAN_DARK_MATTER_REACTOR_sgD_noregen"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core_noregen"
+	icon_frame = 1
+	power = 150000
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { npc_warship_01 }
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
 # 作战计算机
 utility_component_template = {
 	key = "COMBAT_COMPUTER_ARTILLERY_PRECOG_sgD"
